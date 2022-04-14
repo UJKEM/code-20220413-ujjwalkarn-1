@@ -1,0 +1,29 @@
+{
+  "name": "ujjwal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register test/*.js --exit",
+    "dev": "nodemon --exec npx babel-node --presets babel-preset-env ./index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mocha": "^9.2.2",
+    "redis": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai-http": "^4.3.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
